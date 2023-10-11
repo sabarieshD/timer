@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Registration - HIH</title>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="/hackathon/components/CSS/form.css">
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Registration - HIH"/>
+  <link rel="icon" type="image/png" sizes="16x16" href="/hackathon//hackathon/src/favicon.ico">
+  <link href="/hackathon/components/CSS/navbar.css" rel="stylesheet"/>
+  <link href="/hackathon/style.css" rel="stylesheet"/>
+  <link rel="icon" type="image/png" sizes="16x16" href="../src/favicon.ico">
+  <link href="/hackathon/components/CSS/center.css" rel="stylesheet"/>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
+  <link href="/hackathon/components/CSS/domain.css" rel="stylesheet"/>
+  <link href="/hackathon/components/CSS/footer.css" rel="stylesheet"/>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://unpkg.com/powerglitch@latest/dist/powerglitch.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body id="hackathon">
+  <div id="particles-js"></div>
+  <nav class="header-nav">
+    <div class="branding">
+        <a href="/hackathon/index.html"><img src="/hackathon/src/HackInHub-Logo.png" alt=""></a>
+        <h1 class="brand-name">Hack In Hub</h1>
+    </div>
+
+    <div class="nav-buttons">
+        <a href="/index.html" class="nav-btn">Infyra</a>
+        <a href="/hackathon//index.html#schedule" class="nav-btn">Schedule</a>
+        <a href="/hackathon//index.html#domains" class="nav-btn">Problem Statements</a>
+        <a href="/hackathon/components/guidelines.html" class="nav-btn">Guidelines</a>
+        <a href="/hackathon/components/regform.html" class="nav-btn ghost-btn">Register</a>
+    </div>
+  </nav>
+
+  <div class="nav-buttons-mobile hidden-nav">
+    <a href="/index.html" class="nav-btn">Infyra</a>
+    <a href="/hackathon//index.html#schedule-mobile" class="nav-btn">Schedule</a>
+    <a href="/hackathon//index.html#domains-mobile" class="nav-btn">Problem Statements</a>
+    <a href="components/guidelines.html" class="nav-btn">Guidelines</a>
+    <a href="/hackathon/components/regform.html" class="nav-btn ghost-btn">Register</a>
+  </div>
+
+  <div class="hamburger">
+      <span class="line"></span>
+      <span class="line"></span>
+      <span class="line"></span>
+  </div>
+  <center>
+    <img class="glitch" src="/hackathon/src/HackInHub-Logo1.png"/>
+    <h1 class="join-build-learn">Join<span> ~ </span>Build<span> ~ </span>Learn</h1>
+    <p class="desc">Bring-out your hidden tech genius in this <span>24</span> hours hackathon by solving difficult problems faced by the public.</p>
+    <br id="schedule-mobile">
+  </center>
+
+  <div class="form_1" id="registration-section">
+    <form id="myForm" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSeCxAf_z7tiYTaW4ZQsokC27DkgEXTGSexVzQHWi-3jxGLC0w/formResponse" method="POST">
+      <center><h1>Register Here!</h1></center>
+        <div class="form-element">
+          <span>Name (Team Lead)</span>
+          <input type="text" name="entry.1250123033" required placeholder="Name" class="textInput" width="100px">
+        </div>
+
+        <div class="form-element">
+          <span>Team Name</span>
+          <input type="text" name="entry.1597826531" required class="textInput" placeholder="Team Name">
+        </div>
+
+        <div class="form-element">
+          <span>College Mail Id</span>
+          <input type="email" name="entry.722737539" required class="textInput" placeholder="College Mail Id">
+        </div>
+
+        <div class="form-element">
+          <span>Department Name</span>
+          <input type="text" name="entry.747861559" required class="textInput" placeholder="Department Name">
+        </div>
+
+        <div class="form-element">
+          <span>Name of the College</span>
+          <input type="text" name="entry.1182540293" required class="textInput" placeholder="Name of the College">
+        </div>
+
+        <div class="form-element radioButton">
+          <span>Year of Study</span>
+          <label for="I">
+              <span>I</span>
+              <input type="radio" name="entry.1465526594" required id="I" value="I">
+          </label>
+          <label for="II">
+              <span>II</span>
+              <input type="radio" name="entry.1465526594" required id="II" value="II">
+          </label>
+          <label for="III">
+              <span>III</span>
+              <input type="radio" name="entry.1465526594" required id="III" value="III">
+          </label>
+          <label for="IV">
+              <span>IV</span>
+              <input type="radio" name="entry.1465526594" required id="IV" value="IV">
+          </label>
+      </div>
+      
+
+      <div class="form-element">
+        <span>Phone Number (Whatsapp)</span>
+        <input type="number" name="entry.1896222434" required placeholder="Phone Num">
+      </div>
+
+      <div class="form-element">
+        <span>Name (Member 2)</span>
+        <input type="text" name="entry.748381314" required placeholder="Name">
+      </div>
+
+      <div class="form-element">
+        <span>Mail Id (Member 2)</span>
+        <input type="email" name="entry.226039132" required placeholder="Member Mail Id">
+      </div>
+
+      <div class="form-element">
+        <span>Phone Number (Member 2)</span>
+        <input type="number" name="entry.1325740344" required placeholder="Phone Num">
+      </div>
+
+      <div class="form-element">
+        <span>Name (Member 3)</span>
+        <input type="text" name="entry.1103890584" required placeholder="Name">
+      </div>
+
+      <div class="form-element">
+        <span>Mail Id (Member 3)</span>
+        <input type="email" name="entry.1025687013" required placeholder="Member Mail Id">
+      </div>
+
+      <div class="form-element">
+        <span>Phone Number (Member 3)</span>
+        <input type="number" name="entry.428055181" required placeholder="Phone Num">
+      </div>
+      
+      <div class="form-element">
+        <span>Name (Member 4)</span>
+        <input type="text" name="entry.1995123168" required placeholder="Name">
+      </div>
+
+      <div class="form-element">
+        <span>Mail Id (Member 4)</span>
+        <input type="email" name="entry.722737539" required placeholder="Member Mail Id">
+      </div>
+
+      <div class="form-element">
+        <span>Phone Number (Member 4)</span>
+        <input type="number" name="entry.1337530431" required placeholder="Phone Num">
+      </div>
+
+      <div class="form-element">
+        <span>Domain</span>
+        <select name="entry.214623819" required>
+            <option value="">Select an option</option>
+            <option value="DISASTER MANAGEMENT">DISASTER MANAGEMENT</option>
+            <option value="SMART AUTOMATION">SMART AUTOMATION</option>
+            <option value="TRAVEL & TOURISM">TRAVEL & TOURISM</option>
+            <option value="MEDTECH/BIOTECH/HEALTHTECH">MEDTECH/BIOTECH/HEALTHTECH</option>
+            <option value="SMART VEHICLES">SMART VEHICLES</option>
+            <option value="AR/VR">AR/VR</option>
+            <option value="AGRICULTURE, FOODTECH & RURAL DEVELOPMENT">AGRICULTURE, FOODTECH & RURAL DEVELOPMENT</option>
+            <option value="FITNESS & SPORTS">FITNESS & SPORTS</option>
+            <option value="HERITAGE & CULTURE">HERITAGE & CULTURE</option>
+            <option value="MISCELLANEOUS">MISCELLANEOUS</option>
+        </select>
+      </div>
+      <br>
+
+      <div class="probbutton">
+        <a href="/hackathon/components/tables.html" target="_blank"><h3>View Problem Statements here</h3></a>
+      </div>
+      <br>
+
+      <div class="form-element">
+        <span>Problem Statement</span>
+        <select name="entry.1310299914" required>
+            <option value="">Select an option</option>
+            <option value="PS01">PS01</option>
+            <option value="PS02">PS02</option>
+            <option value="PS03">PS03</option>
+            <option value="PS04">PS04</option>
+            <option value="PS05">PS05</option>
+            <option value="PS06">PS06</option>
+            <option value="PS07">PS07</option>
+            <option value="PS08">PS08</option>
+            <option value="PS09">PS09</option>
+            <option value="PS10">PS10</option>
+            <option value="PS11">PS11</option>
+            <option value="PS12">PS12</option>
+            <option value="PS13">PS13</option>
+            <option value="PS14">PS14</option>
+            <option value="PS15">PS15</option>
+            <option value="PS16">PS16</option>
+            <option value="PS17">PS17</option>
+            <option value="PS18">PS18</option>
+            <option value="PS19">PS19</option>
+            <option value="PS20">PS20</option>
+            <option value="PS21">PS21</option>
+            <option value="PS22">PS22</option>
+            <option value="PS23">PS23</option>
+            <option value="PS24">PS24</option>
+            <option value="PS25">PS25</option>
+            <option value="PS26">PS26</option>
+            <option value="PS27">PS27</option>
+            <option value="PS28">PS28</option>
+            <option value="PS29">PS29</option>
+            <option value="PS30">PS30</option>
+            <option value="PS31">PS31</option>
+            <option value="PS32">PS32</option>
+            <option value="PS33">PS33</option>
+            <option value="PS34">PS34</option>
+            <option value="PS35">PS35</option>
+            <option value="PS36">PS36</option>
+            <option value="PS37">PS37</option>
+            <option value="PS38">PS38</option>
+            <option value="PS39">PS39</option>
+            <option value="PS40">PS40</option>
+            <option value="PS41">PS41</option>
+            <option value="PS42">PS42</option>
+            <option value="PS43">PS43</option>
+            <option value="PS44">PS44</option>
+        </select>
+    </div>
+    
+    
+
+      
+    <center><button type="submit">Register</button></center>
+  </form>
+
+  <script>
+      document.getElementById("myForm").addEventListener("submit", function (event) {
+          event.preventDefault(); // Prevent the form from submitting
+          var confirmed = window.confirm("Kindly Upload your Abstract in the Next Tab"); // Display a confirmation dialog
+          if (confirmed) {
+              // If the user clicks "OK," submit the form
+              this.submit();
+          }
+      });
+  </script>
+  </div>
+
+
+
+  <footer id="footer">
+
+    <div class="contact-card">
+        <center><b>CONTACT</b></center>
+        <br>
+        <div class="mail">
+          <img src="/hackathon/src/footerlogos/mail.png"/>
+          <a href="mailto:hackinhub@sairamit.edu.in">hackinhub@sairamit.edu.in</a>
+        </div>
+        <br>
+        <div class="profile">
+          <div>
+            <img src="/hackathon/src/footerlogos/person.png"/>
+            Sowrerajan N
+          </div>
+          <div>
+            <img src="/hackathon//hackathon/src/footerlogos/phone.png" alt="">
+            <a href="tel:+916374995018">6374995018</a>
+          </div>
+        </div>
+        <br>
+        <div class="profile">
+          <div>
+            <img src="/hackathon/src/footerlogos/person.png"/>
+            Harish D
+          </div>
+          <div>
+            <img src="/hackathon/src/footerlogos/phone.png" alt="">
+            <a href="tel:+919345456736">9345456736</a>
+          </div>
+        </div> 
+      </div>
+
+      <div class="location-card">
+        <div>
+          <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62210.801033170384!2d79.98319465820313!3d12.960647099999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52f51f638ddfbb%3A0xf3aef7ec7c8979ba!2sSri%20Sairam%20Institute%20of%20Technology!5e0!3m2!1sen!2sin!4v1664645478525!5m2!1sen!2sin" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <br>
+        <div class="address">
+          <span>Sri Sai Ram Institute of Technology</span>
+          <p>Sai Leo Nagar, West Tambaram,</p>
+          <p>Chennai - 600044</p>
+        </div>
+      </div>
+
+      <div class="social-handles">
+        <div class="lync">
+          Hack in Hub :
+          <br>
+          <a target="_blank" href="https://www.instagram.com/hackinhub23">
+            <img src="https://img.icons8.com/material-outlined/48/000000/instagram-new--v1.png"/>
+          </a>
+        </div>
+        <br>
+        IT Dept ~ SIT :
+        <br>
+        <div class="sairam">
+          <a target="_blank" href="https://www.instagram.com/sairamit_it/"><img src="https://img.icons8.com/material-outlined/48/000000/instagram-new--v1.png"/></a>
+          <a target="_blank" href="https://www.facebook.com/sairamitit/videos/315808929880804/?extid=NS-UNK-UNK-UNK-IOS_GK0T-GK1C"><img src="https://img.icons8.com/material-outlined/48/000000/facebook.png"/></a>
+          <a target="_blank" href="https://www.linkedin.com/posts/sairamit-information-technology_technoholix-activity-6859120428582076416-6hL"><img src="https://img.icons8.com/material-outlined/48/000000/linkedin--v1.png"/></a>
+        </div>
+      </div>
+</footer>
+    <a href="#" class="top">↑</a>
+    <script src="/hackathon/components/JS/domain.js"></script>
+    <script src="/hackathon/components/JS/navbar.js"></script>
+    <script src="/hackathon/components/JS/particles.js"></script>
+    <script src="app.js"></script>
+    <script>AOS.init();</script>
+
+
+  </body>
+</html>

@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&display=swap');
+
+.form-element{
+    background: black;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.form_1{
+    height: 170rem;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 10px #E53935;
+    backdrop-filter: blur(1px) saturate(180%);
+    -webkit-backdrop-filter: blur(1px) saturate(180%);
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+.form_1 h1{
+    color: white;
+}
+
+form{
+    padding: 60px;
+    box-shadow: 0 0 10px #E53935;
+    border-radius: 12px;
+    width: 80%;
+    max-width: calc(100% - 60px);
+}
+
+.form-element{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.form-element span{
+    margin-bottom: 10px;
+}
+
+input,textarea{
+    border: 1px solid white;
+    line-height: 2;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.radioButton label{
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.form_1 button{
+    font-size: 1.4rem;
+    color: #E53935;
+    background-color: black;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s;
+    text-decoration: none;
+    padding: .75rem 1.25rem;
+    border-radius: 12px;
+    box-shadow: 0 0 25px #E53935;
+    outline: 1px solid #E53935;
+  }
+
+.form_1 button:hover{
+    color: white;
+    background-color: #E53935;
+    justify-content: center;
+    align-items: center;
+    transform: scale(1.1);
+    box-shadow: 0 0 35px #E53935;
+    cursor: pointer;
+  }
+
+  .probbutton button{
+    font-size: 1rem;
+    color: #E53935;
+    background-color: black;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s;
+    text-decoration: none;
+    padding: .75rem 1.25rem;
+    border-radius: 12px;
+    box-shadow: 0 0 25px #E53935;
+    outline: 1px solid #E53935;
+  }
+
+  .probbutton button:hover{
+    color: white;
+    background-color: #E53935;
+    justify-content: center;
+    align-items: center;
+    transform: scale(1.05);
+    box-shadow: 0 0 35px #E53935;
+    cursor: pointer;
+  }
+
+  .form-element select {
+    border: 1px solid white;
+    line-height: 2;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Style the options in the dropdown */
+.form-element select option {
+    background-color: black;
+    color: white;
+}
+
+
+/* Animation for input labels */
+.input-field:focus + .input-label,
+.input-field:valid + .input-label {
+  color: #6658d3;
+  transform: translateY(-1.5rem);
+}
+
+/* Style text, email, and phone inputs as lines */
+.form-element input[type="text"],
+.form-element input[type="email"]{
+  border: none;
+  color: white;
+   /* Add a bottom border */
+  background: transparent; /* Make the background transparent */
+  width: 100%;
+  padding: 5px; /* Add some padding for spacing */
+  margin: 5px 0; /* Add margin for spacing between inputs */
+  outline: none; /* Remove the default input outline */
+}
+
+/* Style number input fields and disable spinner buttons */
+    .form-element input[type="number"] {
+        border: none;
+         /* Add a bottom border */
+        color: white;
+        background: transparent; /* Make the background transparent */
+        width: 100%;
+        padding: 5px; /* Add some padding for spacing */
+        margin: 5px 0; /* Add margin for spacing between inputs */
+        outline: none; /* Remove the default input outline */
+        -webkit-appearance: textfield; /* Disable spinner buttons for WebKit browsers */
+        -moz-appearance: textfield; /* Disable spinner buttons for Firefox */
+    }
+    

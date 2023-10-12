@@ -182,7 +182,6 @@ function carousel() {
   for (let i = 0; i < 3; i++) {
     jsConfetti.addConfetti()
     jsConfetti.addConfetti()
-    jsConfetti.addConfetti()
     await delay(3000); // Delay for 1000 milliseconds (1 second)
   }
 }
@@ -211,7 +210,7 @@ function start(){
   // let totalHours = storedTime ? parseInt(storedTime) : 0;
   myFunction();
   var last = "00:00:00";
-  var now = "2023/10/12 14:38:00";
+  var now = "2023/10/14 14:00:00";
   $('#clock').countdown(now, function (event) {
     var totalHours = event.offset.totalDays * 24 + event.offset.hours;
     var hours = totalHours < 10 ? '0' + totalHours : totalHours; // Add leading zero if needed
